@@ -1,4 +1,4 @@
-FROM crazycode/buildpack-deps
+FROM buildpack-deps:jessie-scm
 MAINTAINER crazycode
 
 ENV DEBIAN_FRONTEND noninteractive
